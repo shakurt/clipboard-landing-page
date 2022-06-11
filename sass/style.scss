@@ -12,3 +12,125 @@ $grayish-blue: hsl(201, 11%, 66%);
 body{
     font-family: 'Bai Jamjuree', sans-serif;
 }
+
+.container{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+// BUTTONS
+
+button:focus{
+    outline: none !important;
+}
+
+.btn{
+    border-radius: 200px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    width: 80%;
+    padding: .9rem 4rem;
+    font-size: .93rem;
+}
+
+.ios-btn{
+    margin-top: 1.9rem ;
+    background-color: $strong-cyan;
+    box-shadow: 2px 12px 38px -10px $strong-cyan;
+    border: 1px solid $strong-cyan;
+}
+
+.mac-btn{
+    margin-top: 1.2rem ;
+    background-color: $light-blue;
+    box-shadow: 2px 12px 38px -10px $light-blue;
+    border: 1px solid $light-blue;
+}
+
+// HEADER
+header{
+    padding-top: 7rem;
+    background-image: url("./../images/bg-header-mobile.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .logo{
+            width: 125px;
+            margin-bottom: 3rem;
+        }
+        h2{
+            color:$dark-grayish-blue ;
+            font-size: 1.95rem;
+            margin-bottom: 1rem;
+            span{
+                display: block;
+            }
+        }
+        p{
+            color: $grayish-blue;
+            width: 320px;
+            line-height: 1.5;
+        }
+    }
+}
+
+// SNIPPET SECTION
+section.snippet{
+    margin-block: 12rem;
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+
+        h2{
+            color:$dark-grayish-blue ;
+            font-size: 1.95rem;
+            margin-bottom: 1rem;
+        }
+        p{
+            color: $grayish-blue;
+            width: 320px;
+            line-height: 1.5;
+        }
+
+        .snippet-features{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 5.5rem;
+
+            img{
+                width: 270px;
+            }
+
+            .snippet-features-list{
+                div{
+                    margin-block: 3rem;
+                    h3{
+                        color:$dark-grayish-blue ;
+                        font-size: 1.55rem;
+                        margin-bottom: 1rem;
+                    }
+                    p{
+                        color: $grayish-blue;
+                        width: 320px;
+                        line-height: 1.5;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
