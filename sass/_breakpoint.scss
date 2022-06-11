@@ -1,0 +1,9 @@
+// BREAKPOINTS
+$desktop-breakpoint: 1440px;
+
+
+@mixin dsk() {
+    @media (min-width:$desktop-breakpoint){
+        @content;
+    }
+}
