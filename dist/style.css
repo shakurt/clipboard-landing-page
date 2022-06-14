@@ -214,7 +214,7 @@ section.snippet .container .snippet-features img {
 }
 @media (min-width: 1440px) {
   section.snippet .container .snippet-features img {
-    width: 810px;
+    width: 710px;
     position: absolute;
     left: -3%;
     top: 30%;
